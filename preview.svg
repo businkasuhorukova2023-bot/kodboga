@@ -1,0 +1,65 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" style="stop-color:#0a0025"/>
+<stop offset="50%" style="stop-color:#1a0040"/>
+<stop offset="100%" style="stop-color:#000015"/>
+</linearGradient>
+<linearGradient id="brain" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" style="stop-color:#00ffff"/>
+<stop offset="100%" style="stop-color:#ff00ff"/>
+</linearGradient>
+<linearGradient id="text" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" style="stop-color:#00ffff"/>
+<stop offset="50%" style="stop-color:#00aaff"/>
+<stop offset="100%" style="stop-color:#ff00ff"/>
+</linearGradient>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%">
+<stop offset="0%" style="stop-color:#00ffff;stop-opacity:0.3"/>
+<stop offset="100%" style="stop-color:#00ffff;stop-opacity:0"/>
+</radialGradient>
+</defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<circle cx="100" cy="80" r="1.5" fill="#fff" opacity="0.8"/>
+<circle cx="200" cy="50" r="1" fill="#fff" opacity="0.6"/>
+<circle cx="350" cy="100" r="1.5" fill="#fff" opacity="0.9"/>
+<circle cx="420" cy="60" r="1" fill="#fff" opacity="0.7"/>
+<circle cx="80" cy="200" r="1" fill="#fff" opacity="0.5"/>
+<circle cx="450" cy="180" r="1.5" fill="#fff" opacity="0.8"/>
+<circle cx="150" cy="400" r="1" fill="#fff" opacity="0.6"/>
+<circle cx="380" cy="420" r="1.5" fill="#fff" opacity="0.9"/>
+<circle cx="250" cy="450" r="1" fill="#fff" opacity="0.7"/>
+<circle cx="50" cy="350" r="1" fill="#fff" opacity="0.5"/>
+<circle cx="460" cy="300" r="1" fill="#fff" opacity="0.6"/>
+<circle cx="300" cy="30" r="1.5" fill="#fff" opacity="0.8"/>
+<circle cx="180" cy="150" r="1" fill="#fff" opacity="0.4"/>
+<circle cx="400" cy="250" r="1" fill="#fff" opacity="0.5"/>
+<circle cx="60" cy="450" r="1.5" fill="#fff" opacity="0.7"/>
+<circle cx="280" cy="380" r="1" fill="#fff" opacity="0.6"/>
+<circle cx="120" cy="300" r="1" fill="#fff" opacity="0.4"/>
+<circle cx="350" cy="350" r="1.5" fill="#fff" opacity="0.8"/>
+<circle cx="220" cy="200" r="1" fill="#fff" opacity="0.5"/>
+<circle cx="480" cy="400" r="1" fill="#fff" opacity="0.6"/>
+<circle cx="256" cy="256" r="120" fill="url(#glow)"/>
+<g transform="translate(256,280)">
+<path d="M0,-70 C30,-80 60,-70 75,-45 C90,-20 85,10 70,25 L70,50 C70,65 55,70 40,70 L-40,70 C-55,70 -70,65 -70,50 L-70,25 C-85,10 -90,-20 -75,-45 C-60,-70 -30,-80 0,-70 Z" fill="none" stroke="url(#brain)" stroke-width="3" opacity="0.9"/>
+<circle cx="-25" cy="-20" r="4" fill="#00ffff"/>
+<circle cx="25" cy="-20" r="4" fill="#00ffff"/>
+<circle cx="0" cy="0" r="5" fill="#ff00ff"/>
+<circle cx="-25" cy="25" r="4" fill="#00ffff"/>
+<circle cx="25" cy="25" r="4" fill="#ff00ff"/>
+<circle cx="0" cy="45" r="4" fill="#00ffff"/>
+<line x1="-25" y1="-20" x2="0" y2="0" stroke="#00ffff" stroke-width="1.5"/>
+<line x1="25" y1="-20" x2="0" y2="0" stroke="#00ffff" stroke-width="1.5"/>
+<line x1="0" y1="0" x2="-25" y2="25" stroke="#ff00ff" stroke-width="1.5"/>
+<line x1="0" y1="0" x2="25" y2="25" stroke="#ff00ff" stroke-width="1.5"/>
+<line x1="-25" y1="25" x2="0" y2="45" stroke="#00ffff" stroke-width="1.5"/>
+<line x1="25" y1="25" x2="0" y2="45" stroke="#ff00ff" stroke-width="1.5"/>
+</g>
+<polygon points="256,80 276,92 276,116 256,128 236,116 236,92" fill="url(#brain)" opacity="0.9"/>
+<polygon points="256,95 262,99 262,107 256,111 250,107 250,99" fill="#fff"/>
+<text x="256" y="170" font-family="Arial,sans-serif" font-size="28" font-weight="bold" fill="#fff" text-anchor="middle" letter-spacing="4">OMNI-CORE</text>
+<text x="256" y="195" font-family="Arial,sans-serif" font-size="18" fill="#00ffff" text-anchor="middle">v.14.0</text>
+<text x="256" y="420" font-family="Arial,sans-serif" font-size="48" font-weight="900" fill="url(#text)" text-anchor="middle" letter-spacing="8">КОД БОГА</text>
+<text x="256" y="455" font-family="Arial,sans-serif" font-size="16" fill="#fff" text-anchor="middle" letter-spacing="6" opacity="0.9">UNIVERSAL KNOWLEDGE SYSTEM</text>
+</svg>
